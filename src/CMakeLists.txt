@@ -36,6 +36,7 @@ target_include_directories(${OATPP_THIS_MODULE_NAME}
 target_link_libraries(${OATPP_THIS_MODULE_NAME}
         PUBLIC OpenSSL::SSL
         PUBLIC OpenSSL::Crypto
+        Crypt32
 )
 
 #######################################################################################################
